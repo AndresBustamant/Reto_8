@@ -1,6 +1,6 @@
 # Reto_8
 
-buenas noches, en este repisitorio encontraras el desarrollo del reto 8, espero sea de su agrado 
+buenas noches, en este repisitorio encontraras el desarrollo del reto 8, espero sea de su agrado.
 
 
 link notebook: https://colab.research.google.com/drive/1XcQubCADOGhIpBwFJWqZ1bjVO9KejaEu?usp=sharing
@@ -213,3 +213,4 @@ n=int(input("ingresa la cantidad de terminos a aproximar: "))
 
 aprox_arcotangente(x,n)
 ```
+Gracias por leer hasta aqui.
