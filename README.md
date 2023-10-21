@@ -9,7 +9,7 @@ link notebook: https://colab.research.google.com/drive/1XcQubCADOGhIpBwFJWqZ1bjV
 
 1.Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
 
-desarrollo:
+desarrollo: para este punto desarrolle un programa a el cual se le indique el numero del cual se quiere el cudrado y lo clacule a partir de un rango establecido.
 
 ```pseudocode
 cuadrado=0
@@ -22,7 +22,8 @@ for n in range (0,101):
 
 2.Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 
-desarrollo:
+desarrollo: para este punto empece por definir dos listas y un numero en el cual se evaluara aumentando en un rango de 1-100o con el fin de ver si es par o no 
+y asi mismo ubicarlo en una de las dos listas ordenas.
 
 ```pseudocode
 n=0
@@ -44,7 +45,7 @@ print(impares1)
 
 3.Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 
-desarrollo:
+desarrollo: el programa en este punto empieza por solicitar un numero y evalua primero si es par o impar, en el caso de ser impar lo vuelve par, esto con el fin de ir restando de a dos unidades dentro de un rango establecido entre el numero n y 2.
 
 ```pseudocode
 n=int(input("ingresa el numero hasta el cual quieres los numeros de forma descendente: "))
@@ -65,11 +66,11 @@ print(pares)
 
 4.Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial
 
-desarrollo:
+desarrollo: este punto se basa en solicitar un numero y a partir de este calcular y mostrar el factorial entendiendolo como una multiplicacion consecutiva hasta el mayor valor que toma el rango establecido.
 
 ```pseudocode
 n=int(input("ingresa el numero hasta el cual quieres el factorial: "))
-i=1
+i=2
 factorial=1
 for i in range(1,n+1):
   factorial *=i
@@ -79,12 +80,12 @@ for i in range(1,n+1):
 
 5.Calcular el valor de 2 elevado a la potencia n usando ciclos for.
 
-desarrollo:
+desarrollo: el programa de este punto a partir de un numero solicitado empieza a mostrar los numeros elevados a la potencia 2
 
 ```pseudocode
 n=int(input("ingresa el numero hasta el cual quieres la potencia: "))
 i=1
-potencia=1
+potencia=2
 for i in range(1,n+1):
   potencia *=2
 
@@ -93,7 +94,7 @@ print("la el numero "+str(i)+ " elevado a el cuadrado es "+str (potencia))
 
 6.Leer un número natural n, leer otro dato de tipo real x y calcular x^n usando ciclos for. Disclaimer: Trate de no utilizar el operador de potencia (**).
 
-desarrollo:
+desarrollo: este punto bsa su desarrollo con la misma ide del entarior, el cambio que se hace para cumplir el objetivo es cambiar la potencia a la que se va a elevar
 
 ```pseudocode
 n=int(input("ingresa la base de la potencia: "))
@@ -106,7 +107,7 @@ print("para la base "+str(n)+ " elevada a "+str(x) +" la potencia es igual a: "+
 
 7.Diseñe un programa que muestre las tablas de multiplicar del 1 al 9.
 
-desarrollo:
+desarrollo: en este punto utilize dos ciclos for el primero con el fin de dar el numero de referencia de la tabla y el segundo para operar el numero anterior con cada numero de 1-10
 
 ```pseudocode
 for i in range(1,11):
@@ -121,7 +122,7 @@ for i in range(1,11):
 
 ![formula 1](https://github.com/AndresBustamant/Reto_8/assets/141858005/8b8c5239-be8f-47a8-873a-19030dcab11e)
 
-desarrollo:
+desarrollo: para este punto cree una funcion delimitada por dos valores solictados en la cual a partir de un rango evaluara de forma aproximada la funcion exponencia y de manera simultanea calculara el valor real y los diferenciara para entender el porcetaje de error presente.
 
 ```pseudocode
 import math
@@ -152,7 +153,8 @@ aprox_exponencial(x,n)
 
 ![formula 2](https://github.com/AndresBustamant/Reto_8/assets/141858005/8e6966cf-0f96-4b52-b2c8-86fb2f4bbe97)
 
-desarrollo:
+desarrollo:para este punto cree una funcion delimitada por dos valores solictados en la cual a partir de un rango evaluara de forma aproximada la funcion seno y de manera simultanea calculara el valor real y los diferenciara para entender el porcetaje de error presente.
+
 
 ```pseudocode
 import math
@@ -185,7 +187,7 @@ aprox_seno(x,n)
 
 ![formula 3](https://github.com/AndresBustamant/Reto_8/assets/141858005/9001e9fe-a5f4-4488-bbe1-4d4fc414a798)
 
-desarrollo:
+desarrollo: por ultimo cree un programa delimitado a los valores de la tangenete (-1,1) el cual evalua de forma aproximada los valores que se pueden dar y posterior menete los compara con el valor real, dando como resultado el porcentaje de error en el calculo.
 
 ```pseudocode
 import math
